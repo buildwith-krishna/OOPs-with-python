@@ -7,7 +7,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge)
 ![Built On](https://img.shields.io/badge/Built%20On-Android%20Phone-red?style=for-the-badge&logo=android)
 
-> **A 15-day structured OOP learning journey in Python.**  
+> **A 15-day structured OOP learning journey in Python.**
 > From classes and objects all the way to building real OOP-powered projects.
 
 *Built entirely on an Android phone. No laptop. No excuses.* 📱⚡
@@ -29,7 +29,8 @@
 ```
 🟢 Day 01 Complete — Classes, Objects, Inheritance, super().__init__()
 🟢 Day 02 Complete — Encapsulation, Private Variables, Getters & Setters
-🔜 Day 03 Up Next  — Polymorphism & Method Overriding
+🟢 Day 03 Complete — Polymorphism & Method Overriding
+🔜 Day 04 Up Next  — Dunder Methods __str__, __repr__, __len__
 ```
 
 ---
@@ -40,7 +41,7 @@
 |-----|-------|--------|
 | 01 | Classes, Objects, Inheritance, `super().__init__()` | ✅ Done |
 | 02 | Encapsulation — private variables, getters & setters | ✅ Done |
-| 03 | Polymorphism & method overriding | 🔜 |
+| 03 | Polymorphism & method overriding | ✅ Done |
 | 04 | Dunder methods — `__str__`, `__repr__`, `__len__` | 🔜 |
 | 05 | Class methods & static methods | 🔜 |
 | 06 | Abstract classes & interfaces | 🔜 |
@@ -79,6 +80,18 @@
 
 ---
 
+## ✨ What I Learned — Day 03
+
+| Concept | Status |
+|---------|--------|
+| Method overriding — child rewrites parent's method | ✅ |
+| Polymorphism — same method name, different behaviour | ✅ |
+| Looping through objects and calling same method | ✅ |
+| Duck typing — polymorphism without inheritance | ✅ |
+| Default behaviour when no override exists | ✅ |
+
+---
+
 ## 📁 Structure
 
 ```
@@ -108,7 +121,7 @@ Git       → GitHub
 Phase 1 — OOP Fundamentals (Days 1–7)
     ✅ Classes, objects, inheritance, super()
     ✅ Encapsulation
-    🔜 Polymorphism
+    ✅ Polymorphism & method overriding
     🔜 Dunder methods
     🔜 Class & static methods
     🔜 Abstract classes
@@ -133,7 +146,7 @@ This isn't just practice files.
 
 It's a documented proof of **learning in public** — every mistake, every fix, every insight logged as a commit.
 
-Built on an **Android phone** using **Termux**.  
+Built on an **Android phone** using **Termux**.
 One `.py` file a day. One concept at a time.
 
 ---
