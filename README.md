@@ -28,7 +28,8 @@
 
 ```
 🟢 Day 01 Complete — Classes, Objects, Inheritance, super().__init__()
-🔜 Day 02 Up Next  — Encapsulation
+🟢 Day 02 Complete — Encapsulation, Private Variables, Getters & Setters
+🔜 Day 03 Up Next  — Polymorphism & Method Overriding
 ```
 
 ---
@@ -38,7 +39,7 @@
 | Day | Topic | Status |
 |-----|-------|--------|
 | 01 | Classes, Objects, Inheritance, `super().__init__()` | ✅ Done |
-| 02 | Encapsulation — private variables, getters & setters | 🔜 |
+| 02 | Encapsulation — private variables, getters & setters | ✅ Done |
 | 03 | Polymorphism & method overriding | 🔜 |
 | 04 | Dunder methods — `__str__`, `__repr__`, `__len__` | 🔜 |
 | 05 | Class methods & static methods | 🔜 |
@@ -62,6 +63,19 @@
 | `super().__init__()` | ✅ |
 | Passing arguments cleanly (not using `input()` inside classes) | ✅ |
 | Debugging — typos, missing args, missing `()` | ✅ |
+
+---
+
+## ✨ What I Learned — Day 02
+
+| Concept | Status |
+|---------|--------|
+| Private variables `__balance` | ✅ |
+| Getter — read private data safely | ✅ |
+| Setter — modify with validation | ✅ |
+| Input outside the class | ✅ |
+| `try/except` for type conversion | ✅ |
+| `+=` vs `=` — deposit vs replace | ✅ |
 
 ---
 
@@ -93,7 +107,7 @@ Git       → GitHub
 ```
 Phase 1 — OOP Fundamentals (Days 1–7)
     ✅ Classes, objects, inheritance, super()
-    🔜 Encapsulation
+    ✅ Encapsulation
     🔜 Polymorphism
     🔜 Dunder methods
     🔜 Class & static methods
