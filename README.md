@@ -30,7 +30,8 @@
 🟢 Day 01 Complete — Classes, Objects, Inheritance, super().__init__()
 🟢 Day 02 Complete — Encapsulation, Private Variables, Getters & Setters
 🟢 Day 03 Complete — Polymorphism & Method Overriding
-🔜 Day 04 Up Next  — Dunder Methods __str__, __repr__, __len__
+🟢 Day 04 Complete — Dunder Methods __str__, __repr__, __len__
+🔜 Day 05 Up Next  — Class Methods & Static Methods
 ```
 
 ---
@@ -42,7 +43,7 @@
 | 01 | Classes, Objects, Inheritance, `super().__init__()` | ✅ Done |
 | 02 | Encapsulation — private variables, getters & setters | ✅ Done |
 | 03 | Polymorphism & method overriding | ✅ Done |
-| 04 | Dunder methods — `__str__`, `__repr__`, `__len__` | 🔜 |
+| 04 | Dunder methods — `__str__`, `__repr__`, `__len__` | ✅ Done |
 | 05 | Class methods & static methods | 🔜 |
 | 06 | Abstract classes & interfaces | 🔜 |
 | 07 | Composition vs Inheritance | 🔜 |
@@ -92,6 +93,19 @@
 
 ---
 
+## ✨ What I Learned — Day 04
+
+| Concept | Status |
+|---------|--------|
+| `__str__` — human friendly object description | ✅ |
+| `__repr__` — developer friendly full details | ✅ |
+| `__len__` — must return integer, not string | ✅ |
+| `__init__` is a dunder too | ✅ |
+| `return` inside dunders, not `print` | ✅ |
+| `__str__` vs `__repr__` — user vs developer | ✅ |
+
+---
+
 ## 📁 Structure
 
 ```
@@ -99,6 +113,7 @@ OOPs-with-python/
 ├── day01_classes_objects.py
 ├── day02_encapsulation.py
 ├── day03_polymorphism.py
+├── day04_dunder.py
 └── ...
 ```
 
@@ -122,7 +137,7 @@ Phase 1 — OOP Fundamentals (Days 1–7)
     ✅ Classes, objects, inheritance, super()
     ✅ Encapsulation
     ✅ Polymorphism & method overriding
-    🔜 Dunder methods
+    ✅ Dunder methods
     🔜 Class & static methods
     🔜 Abstract classes
     🔜 Composition vs Inheritance
