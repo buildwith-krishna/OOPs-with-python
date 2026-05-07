@@ -31,7 +31,8 @@
 🟢 Day 02 Complete — Encapsulation, Private Variables, Getters & Setters
 🟢 Day 03 Complete — Polymorphism & Method Overriding
 🟢 Day 04 Complete — Dunder Methods __str__, __repr__, __len__
-🔜 Day 05 Up Next  — Class Methods & Static Methods
+🟢 Day 05 Complete — Class Methods & Static Methods
+🔜 Day 06 Up Next  — Abstract Classes & Interfaces
 ```
 
 ---
@@ -44,7 +45,7 @@
 | 02 | Encapsulation — private variables, getters & setters | ✅ Done |
 | 03 | Polymorphism & method overriding | ✅ Done |
 | 04 | Dunder methods — `__str__`, `__repr__`, `__len__` | ✅ Done |
-| 05 | Class methods & static methods | 🔜 |
+| 05 | Class methods & static methods | ✅ Done |
 | 06 | Abstract classes & interfaces | 🔜 |
 | 07 | Composition vs Inheritance | 🔜 |
 | 08 | Real project — refactor Notes App with full OOP | 🔜 |
@@ -106,6 +107,18 @@
 
 ---
 
+## ✨ What I Learned — Day 05
+
+| Concept | Status |
+|---------|--------|
+| Class variable — shared across all objects | ✅ |
+| `@classmethod` — belongs to the class, uses `cls` | ✅ |
+| `@staticmethod` — utility helper, no `self` or `cls` | ✅ |
+| `self` vs `cls` — individual object vs whole class | ✅ |
+| Calling class & static methods without an object | ✅ |
+
+---
+
 ## 📁 Structure
 
 ```
@@ -114,6 +127,7 @@ OOPs-with-python/
 ├── day02_encapsulation.py
 ├── day03_polymorphism.py
 ├── day04_dunder.py
+├── day05_class_static_methods.py
 └── ...
 ```
 
@@ -138,7 +152,7 @@ Phase 1 — OOP Fundamentals (Days 1–7)
     ✅ Encapsulation
     ✅ Polymorphism & method overriding
     ✅ Dunder methods
-    🔜 Class & static methods
+    ✅ Class & static methods
     🔜 Abstract classes
     🔜 Composition vs Inheritance
 
