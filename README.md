@@ -32,7 +32,9 @@
 🟢 Day 03 Complete — Polymorphism & Method Overriding
 🟢 Day 04 Complete — Dunder Methods __str__, __repr__, __len__
 🟢 Day 05 Complete — Class Methods & Static Methods
-🔜 Day 06 Up Next  — Abstract Classes & Interfaces
+🟢 Day 06 Complete — Abstract Classes & Interfaces
+🟢 Day 07 Complete — Composition vs Inheritance
+🔜 Day 08 Up Next  — Real Project: OOP Contact Book
 ```
 
 ---
@@ -46,9 +48,9 @@
 | 03 | Polymorphism & method overriding | ✅ Done |
 | 04 | Dunder methods — `__str__`, `__repr__`, `__len__` | ✅ Done |
 | 05 | Class methods & static methods | ✅ Done |
-| 06 | Abstract classes & interfaces | 🔜 |
-| 07 | Composition vs Inheritance | 🔜 |
-| 08 | Real project — refactor Notes App with full OOP | 🔜 |
+| 06 | Abstract classes & interfaces | ✅ Done |
+| 07 | Composition vs Inheritance | ✅ Done |
+| 08 | Real project — OOP Contact Book | 🔜 |
 | 09 | Error handling inside classes | 🔜 |
 | 10 | Mini project & OOP revision | 🔜 |
 | 11–15 | FastAPI prep — applying OOP in real backend systems | 🔜 |
@@ -119,6 +121,32 @@
 
 ---
 
+## ✨ What I Learned — Day 06
+
+| Concept | Status |
+|---------|--------|
+| `ABC` — Abstract Base Class | ✅ |
+| `@abstractmethod` — forces child to implement method | ✅ |
+| Can't instantiate abstract class directly | ✅ |
+| Child must implement all abstract methods or errors | ✅ |
+| Abstract class as a contract/blueprint | ✅ |
+| Built Shape → Circle, Rectangle, Triangle with user input | ✅ |
+
+---
+
+## ✨ What I Learned — Day 07
+
+| Concept | Status |
+|---------|--------|
+| Inheritance = IS A relationship | ✅ |
+| Composition = HAS A relationship | ✅ |
+| When inheritance breaks — RobotDog problem | ✅ |
+| Class owning another class as an object | ✅ |
+| `__str__` across composed objects | ✅ |
+| When in doubt — prefer composition | ✅ |
+
+---
+
 ## 📁 Structure
 
 ```
@@ -128,6 +156,8 @@ OOPs-with-python/
 ├── day03_polymorphism.py
 ├── day04_dunder.py
 ├── day05_class_static_methods.py
+├── day06_abstract_classes.py
+├── day07_composition_inheritance.py
 └── ...
 ```
 
@@ -153,11 +183,11 @@ Phase 1 — OOP Fundamentals (Days 1–7)
     ✅ Polymorphism & method overriding
     ✅ Dunder methods
     ✅ Class & static methods
-    🔜 Abstract classes
-    🔜 Composition vs Inheritance
+    ✅ Abstract classes
+    ✅ Composition vs Inheritance
 
 Phase 2 — Real Project (Days 8–10)
-    🔜 Refactor Notes App with full OOP
+    🔜 Real project: OOP Contact Book
     🔜 Error handling inside classes
     🔜 Mini project & revision
 
